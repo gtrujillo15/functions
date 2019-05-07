@@ -10,3 +10,5 @@ funcExpression(); // this will not work because it's an expression; it's a varia
 var funcExpression = function() {
     console.log("I'm inside a function declaration.");
 };
+
+// so to avoid confusion, its best practice to use functions after they are defined
