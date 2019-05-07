@@ -16,11 +16,8 @@ function formatName(firstName, lastName) {
     // To Do: check if userFullName is already saved in local storage, if it is then don't override, if not, save it
     // console.log(localStorage.getItem('userFullName'));
     if (!localStorage.getItem('userFullName')) {
-
-    } else {
         localStorage.setItem('userFullName', formattedName); //add KEY and then VALUE . . . save to local stoarge
     }
-
 
     return formattedName;
 }
